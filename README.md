@@ -63,7 +63,8 @@ output years, principal, interest, balance,
 END
 
 # FlowChart
-![Capture](https://user-images.githubusercontent.com/55254441/68542421-5bc22400-03e7-11ea-9a14-006784a01c22.PNG)
+![code2flow_1hUsDM](https://user-images.githubusercontent.com/55254441/71311406-bffdec00-2459-11ea-8269-983e845fcdd2.png)
+
 
 # SCREENSHOT OF THE OUTPUT 
 ![Screenshot (5)](https://user-images.githubusercontent.com/55254441/68542467-c3786f00-03e7-11ea-9add-fa12fefc7bbb.png)
