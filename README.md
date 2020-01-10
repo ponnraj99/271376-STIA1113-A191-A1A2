@@ -10,60 +10,86 @@ In this assignment, I am going to investigate a car loan then make a JAVA code t
 
 # Pseudo-Code
 
-START 
+ 
+Start
 
-Declare
+Declare 
 
-double carPrice=0,downPayment=0,interestRate=0,total_interest,monthly_repayment,principal,interest,balance;
 
-int loanPeriod=0,years=1;
 
-input carPrice
+double A=0,B=0,D=0,total_interest,monthly_repayment,principal,interest,balance
 
-output enter carPrice (RM)
 
-loop enter the carPrice when the carPriceless than RM30000
+int C=0,years=1
 
-input downPayment
 
-output enter downPayment(RM)
+Input car price
 
-loop enter downPayment when the less than = to zero
 
-input loan period
+Output enter the car price
 
-output enter loan period(Years)
 
-loop enter when the loan period less than five or bigger than nine
+Loop enter the car price if the car price less than RM30000
 
-input interest rate 
 
-output enter the interest rate(%)
+Input down payment 
 
-loop enter the interest when the interest rate smaller than 0.03 or bigger than 0.07
 
-determine the total interest= (carPrice – downPayment) x interest rate x loan period
+Output enter the down payment	
 
-determine the monthlyRepayment=( carPrice-downPayment + total interest) ÷ ( loan period x 12)
 
-output monthlyRepayment
 
-loop resolve on loan period
 
-    determine principal = monthlyRepayment x 12 x years
-		
-    determine interest = total interest ÷ loan period x years
-		
-    determine balance = monthlyRepayment x 12 x (loan period – years)
+Loop enter the down payment if the down payment less than equal to zero 
+Input loan period 
 
-output years, principal, interest, balance, 
 
-    determine years ++
+Output enter the loan period
 
-END
+
+Loop enter the loan period if the loan period less than five or more than nine 
+
+
+Input interest rate 
+
+
+Output enter the interest rate
+
+
+Loop enter the interest rate if the interest rate less than 0.03 or more than 0.07
+
+
+Calculate the total interest = (car price - down payment) * interest rate * loan period
+
+
+Calculate the total monthly repayment = ( car price - down payment + total interest ) / (loan period * 12)
+
+
+Output monthly repayment
+
+
+Loop depending on loan period 
+
+
+	Calculate principal = monthly repayment *12*years 
+	
+	
+	Calculate interest = total interest / loan period * years 
+	
+	
+	Calculate balance = monthly repayment*12*(loan period-years)
+	
+	
+	
+Output years,principal,interest,balance
+
+
+	Calculate years ++
+End
 
 # FlowChart
-![code2flow_1hUsDM](https://user-images.githubusercontent.com/55254441/71311406-bffdec00-2459-11ea-8269-983e845fcdd2.png)
+![flowchart assignment 1](https://user-images.githubusercontent.com/59041081/72139353-a4876080-33c9-11ea-947f-ffd1259be695.png)
+
 
 
 # SCREENSHOT OF THE OUTPUT 
